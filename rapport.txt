@@ -1,0 +1,55 @@
+Ne modifiez pas ce fichier (même cette ligne) sauf pour y ajouter vos réponses
+aux endroits marqués de "..."
+
+Etudiant 1:
+Matricule: S192814
+Nom: HOGGE
+Prénom: LOUIS
+Contribution au projet: 50 %
+
+Etudiant 2: (laissez vide si vous avez fait le projet seul)
+Matricule: S193340
+Nom: JACOBS
+Prénom: HUGO
+Contribution au projet: 50 %
+
+Analyse de complexité
+=====================
+
+prLoadProgramFromFile
+---------------------
+
+Temps de calcul (en ms)
+
+program_1000_200.txt: 5.438
+program_2000_200.txt: 11.934
+program_4000_200.txt: 23.221
+program_8000_200.txt: 38.068
+
+Complexité en fonction de N, M, et L:
+- Pire cas:  O(M*N*N)
+- Si table de hachage en O(1):  O(M*N)
+(laissez le deuxième cas vide si vous n'avez pas utilisé de table de hachage)
+
+Commentaire:
+Nous sommes plus proches du cas où la table de hachage est en O(1).
+
+
+program2graph
+-------------
+
+Temps de calcul (en ms)
+
+program_1000_200.txt: 240.320
+program_2000_200.txt: 938.070
+program_4000_200.txt: 3857.584
+program_8000_200.txt: 19094.823
+
+Complexité en fonction de N, M, et L:
+- Pire cas: O(N*N*N*M*M)
+- Si table de hachage en O(1): O(N*N*M*M)
+(laissez le deuxième cas vide si vous n'avez pas utilisé de table de hachage)
+
+Commentaire:
+Nous sommes plus proches du cas où la table de hachage est en O(1).
+
